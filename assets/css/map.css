@@ -1,0 +1,77 @@
+/*!
+ * @Author: chenqiwei.net 
+ * @Date: 2021-10-30 10:14:56 
+ * @Last Modified by: chenqiwei.net
+ * @Last Modified time: 2021-10-30 14:27:56
+ */
+#pointBox .point-con {
+  background-color: #fff;
+  box-sizing: border-box;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px 0 rgb(0 0 0 / 10%);
+  z-index: 1000;
+  position: absolute;
+  padding: 0;
+  width: 90%;
+}
+#pointBox .site-content {
+  margin-top: 0;
+}
+#pointBox .point-con-top {
+  top: 100px;
+}
+#pointBox .point-con-bottom {
+  bottom: 100px;
+}
+#pointBox .point-close {
+  cursor: pointer;
+  display: inline-block;
+  -moz-opacity: 0.7;
+  opacity: 0.7;
+  position: absolute;
+  right: 15px;
+  top: -15px;
+  color: #000;
+  font-size: 40px;
+  z-index: 9999999;
+}
+.map-con{
+    padding: 15px;
+}
+.map-con-title a {
+  font-size: 18px;
+  color: #000;
+}
+.map-con-title {
+    margin: -14px 0 0;
+    padding: 0 30px 0 0;
+    overflow: hidden;
+    height: 36px;
+}
+.map-img img{
+    cursor: pointer;
+    border-radius: 6px 0 0 6px;
+    width: 92px;
+    height: 92px;
+}
+.map-con-text {
+  height: 50px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.map-con-location a {
+  color: #000;
+}
+.map-con-location{
+    margin-left: -4px;
+}
+.map-con-box {
+  display: flex;
+  height: 92px;
+  overflow: hidden;
+}

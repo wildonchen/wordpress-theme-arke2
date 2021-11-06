@@ -1,0 +1,66 @@
+/*!
+ * @Author: chenqiwei.net 
+ * @Date: 2021-10-16 00:28:36 
+ * @Last Modified by: chenqiwei.net
+ * @Last Modified time: 2021-10-16 00:50:05
+ */
+@media screen and (max-width: 500px) {
+    .remember-list{
+    column-count: 1 !important;
+    }
+    .remember-list-con-none-border{
+    border-bottom: 2px dashed #eaeaea !important;
+    }
+}
+.remember-list{
+    column-count: 2;
+    column-gap: 0;
+    margin: 0 -15px 0;
+}
+.remember-list-card{
+box-sizing: border-box;
+break-inside: avoid;
+}
+.remember-list-box{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px 0;
+    height: auto;
+    box-sizing: border-box;
+}
+.remember-list-img{
+    position: relative;
+}
+.remember-list-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.remember-list-img::before,.remember-list-img:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    background: radial-gradient(circle, #fff, #fff 4px, transparent 5px);
+    background-size: 10px 10px;
+}
+.remember-list-img::before{
+    top: -6px;
+}
+.remember-list-img:after{
+    bottom: 1px;
+}
+.remember-list-title{
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+.remember-list-title a{
+    font-size: 18px;
+}
+.remember-list-con{
+    padding: 2px 0 25px;
+    border-bottom: 2px dashed #eaeaea;
+}
+.remember-list-card:last-child .remember-list-con,.remember-list-con-none-border{
+        border:none;
+}

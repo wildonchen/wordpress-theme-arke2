@@ -1,0 +1,47 @@
+/*
+ * @Author: chenqiwei.net 
+ * @Date: 2021-06-27 17:07:56 
+ * @Last Modified by: chenqiwei.net
+ * @Last Modified time: 2021-09-28 20:58:12
+ */
+.my-say .entry-content{
+   padding: 0 0 25px 34px;
+   border-left: 1px solid #e5e5e5;
+   margin: -4px 0 0 24.5px;
+ }
+ .my-say .entry-content p{
+   margin-top: 6px;
+ }
+ .my-say .my-say-author img{
+    border-radius: 50%;
+    border: 1px solid #e5e5e5;
+    padding: 2px;
+    margin-right: 4px;
+    vertical-align: sub;
+    transition: all 2.0s;
+ }
+ .my-say .my-say-author img:hover{
+ transform: rotate(360deg);
+ }
+ .my-say-author-img, .my-say-info {
+ display: inline-block;
+ }
+ .my-say-info{
+   font-size: 12px;
+   position: absolute;
+   margin: 4px 0 0 5px;
+ }
+ .my-say-title{
+ font-weight: bold;
+ font-size: 15px;
+ }
+ .my-say-img,.my-say .entry-content{
+ display: inline-block;
+ }
+ 
+ .my-say .list-img{
+ margin: 0;
+ }
+ .my-say-box:first-of-type{
+     margin-top: 20px;
+ }

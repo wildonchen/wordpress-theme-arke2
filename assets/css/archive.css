@@ -1,0 +1,47 @@
+/*!
+ * @Author: chenqiwei.net 
+ * @Date: 2021-06-22 20:14:48 
+ * @Last Modified by: chenqiwei.net
+ * @Last Modified time: 2021-06-22 20:15:08
+ */
+.archives__list {
+    list-style: none;
+    padding: 0
+}
+.archives__list li {
+        padding: 5px 0;
+    font-size: 15px;
+    position: relative;
+    z-index: 1000;
+}
+.archives__list li a {
+    max-width: 70%;
+    display: inline-block;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: #fff;
+    padding-right: 6px;
+    color: #000;
+}
+.archives__list li span {
+    color: #525252;
+    max-width: 30%;
+    display: inline-block;
+    float: right;
+    text-align: right;
+        background: #fff;
+    padding-left: 6px;
+}
+.archives__list hr{
+        position: relative;
+    top: -25px;
+    height: 1px;
+    margin: 0;
+    border-bottom: 1px dotted #ddd;
+    background: none;
+}
+.search-form{
+    margin: 20px 0;
+}

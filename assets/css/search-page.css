@@ -1,0 +1,21 @@
+.search-page .screen-reader-text{
+    display: none;
+}
+.search-page .search-field{
+    width: 50% !important;
+    height: 35px;
+    line-height: 35px;
+    max-width: unset !important;
+}
+.search-page .search-submit{
+    width: 80px!important;
+    height: 35px;
+    line-height: 35px;
+    top: 1px;
+    margin-left: 6px;
+    position: relative;
+}
+.search-page #search-keys{
+    display: block !important;
+    margin-top: 5px;
+}

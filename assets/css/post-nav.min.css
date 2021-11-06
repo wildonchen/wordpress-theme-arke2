@@ -1,0 +1,6 @@
+/*!
+ * @Author: chenqiwei.net 
+ * @Date: 2021-05-30 21:08:18 
+ * @Last Modified by: chenqiwei.net
+ * @Last Modified time: 2021-06-05 12:32:57
+ */#post-nav-box{float:right;position:relative;z-index:100000;border:1px solid #eaeaea;border-radius:4px;max-width:40%;background:#fff;margin-left:15px;margin-top:5px}.post-nav-title{font-size:17px;font-weight:700;text-align:center;height:32px;line-height:34px;padding:0 8px;cursor:pointer}.post-nav li,.post-nav ul{list-style:none;padding:0;margin:0;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}.post-nav li{padding:2px 15px}.post-navli span{padding-left:10px}.post-nav li:hover{background:rgba(0,0,0,.04)}.post-nav-fixed{position:fixed!important;top:20px;margin-left:0!important;margin-top:0!important}

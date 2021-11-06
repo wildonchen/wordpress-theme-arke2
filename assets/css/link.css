@@ -1,0 +1,62 @@
+/*!
+ * @Author: chenqiwei.net 
+ * @Date: 2021-10-30 23:11:33 
+ * @Last Modified by:   chenqiwei.net 
+ * @Last Modified time: 2021-10-30 23:11:33 
+ */
+    .link-item {
+    display: flex !important;
+    justify-content: center;
+    }
+    .link-item h2{
+        font-size: 17px;
+        display: contents;
+        
+    }
+    .link-logo img{
+        width: 48px;
+        height: 48px;
+        border-radius: 50% !important;
+        min-width: 48px;
+        cursor: default !important;
+        transition: all 2.0s;
+    }
+    .blog-name{
+        height: 28px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .link-info{
+        padding: 0 10px;
+    }
+    .link-num{position: relative;
+        top: -40px;
+        text-align: right;
+        height: 0;
+    }
+    .link-box ul{
+        padding-left: 0 !important;
+    }
+    .link-logo img:hover{
+        transform: rotate(360deg);
+        cursor:pointer
+    }
+    .link-con{
+        display: flex;
+        border: 1px dashed #e5e5e5;
+        width: 100%;
+        margin: 2.5%;
+        padding: 2.5%;
+        height: 50px;
+        border-radius: 4px;
+    }
+    .blog-desc{
+        font-size: 13px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .link-box{
+        width: 102.5%;
+        margin-left: -1.25%;
+    }
