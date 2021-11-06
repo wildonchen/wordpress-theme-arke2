@@ -8,8 +8,6 @@
  * @license http://opensource.org/licenses/gpl-2.0.php GNU Public License
  */
 
-use ParagonIE\Sodium\Core\Curve25519\Ge\P2;
-
 ?>
 <?php
 /*-----------------------------------------------------------------------------------*/
